@@ -2,7 +2,7 @@ import React, { Children } from 'react'
 import { FaFacebook, FaRegCirclePlay } from "react-icons/fa6";
 import homebanner from '../../front/assets/imgs/home-banner.png'
 import bannerpng from '../../front/assets/imgs/banner.png'
-import Childrenbook from '../../front/assets/imgs/Children-book.png'
+import Childrenbook from '../../front/assets/imgs/children-book.png'
 import childreneducation from '../../front/assets/imgs/children-education.png'
 import Cleanmineral from '../../front/assets/imgs/Clean-mineral.png'
 import Surgerytreatment from '../../front/assets/imgs/Surgery-treatment.png'
@@ -10,10 +10,6 @@ import Childrenfood from '../../front/assets/imgs/children-food.png'
 import aboutimg from '../../front/assets/imgs/about-img.png'
 import download from '../../front/assets/imgs/download.png'
 import eventbig from '../../front/assets/imgs/event-big.png'
-// import volunteer from '../../front/assets/imgs/volunteer-1.png'
-// import volunteer1 from '../../front/assets/imgs/volunteer-2.png'
-// import volunteer2 from '../../front/assets/imgs/volunteer-3.png'
-// import volunteer3 from '../../front/assets/imgs/volunteer-4.png'
 import welcometojago from '../../front/assets/imgs/welcome-to-jago.png'
 import collectfund from '../../front/assets/imgs/collectfund.png'
 import collectfund2 from '../../front/assets/imgs/collectfund2.png'
@@ -35,9 +31,6 @@ import sliderimg5 from '../../front/assets/imgs/sliderimg5.png'
 import sliderimg6 from '../../front/assets/imgs/sliderimg6.png'
 import sliderimg7 from '../../front/assets/imgs/sliderimg7.png'
 import { IoIosPeople, IoLogoInstagram } from 'react-icons/io';
-// import { FaTwitter } from "react-icons/fa";
-// import { FaFacebookF, FaLinkedin, FaLinkedinIn } from 'react-icons/fa';
-// import { MdPerson2 } from 'react-icons/md';
 import { HiOutlineCalendarDateRange } from 'react-icons/hi2';
 import { IoTimeSharp } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
@@ -45,7 +38,6 @@ import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-// import './styles.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { motion } from "framer-motion";
 const Home = () => {
