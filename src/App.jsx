@@ -13,6 +13,7 @@ import Causesoptiontow from './front/pages/Causesoptiontow'
 import Eventsdetails from './front/pages/Eventsdetails'
 import Newsdetails from './front/pages/Newsdetails'
 import Contact from './front/pages/Contact'
+import Profile from './front/pages/Profile'
 
 const App = () => {
 
@@ -34,6 +35,7 @@ const App = () => {
             <Route path='/front/Eventsdetails' element={<Eventsdetails />}></Route>
             <Route path='/front/newsdetails' element={<Newsdetails />}></Route>
             <Route path='/front/contact' element={<Contact />}></Route>
+            <Route path='/front/profile' element={<Profile/>}></Route>
           </Route>
         </Routes>
       

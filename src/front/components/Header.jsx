@@ -5,6 +5,7 @@ import { IoMenu } from 'react-icons/io5'
 import { RxCross2 } from 'react-icons/rx'
 import { motion } from "framer-motion";
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io'
+import { CgProfile } from 'react-icons/cg'
 
 const Header = () => {
     let [Togelmenu, setTogelmenu] = useState(false)
@@ -38,7 +39,7 @@ const Header = () => {
 
     return (
         <>
-            <div className='px-10 flex items-center justify-between w-full'>
+            <div className='px-5 flex items-center justify-between w-full'>
                 <div>
                     <Link to="/">    <img src={logo} className="w-[80px] h-[80px]" alt="" /></Link>
                 </div>
@@ -131,6 +132,7 @@ const Header = () => {
                 <div className='flex items-center gap-5'>
                     <Link to="/front/login" onClick={closeAllMenus} className='bg-blue-600 rounded-lg py-[8px] px-5 text-sm text-white hover:bg-blue-800 transition duration-400 hidden md:inline '>Login</Link>
                     <Link to="/front/signup" onClick={closeAllMenus} className='bg-red-500 rounded-lg py-[8px] px-5 text-sm text-white hover:bg-red-700 transition duration-400 hidden md:inline '>Sign up</Link>
+                    <Link to="/front/profile "><CgProfile size={30} className='' /></Link>
 
                     <div className="relative">
                         <button className='inline md:hidden text-3xl shadow-[0_0px_10px_0px_rgba(0,0,0,0.4)] rounded' onClick={() => { setTogelmenu(!Togelmenu) }}>
@@ -228,6 +230,9 @@ const Header = () => {
                                     <li className='border-b border-gray-300 mt-3 pb-2 px-3 hover:bg-white text-red-800 font-bold'>
                                         <Link onClick={closeAllMenus} to="/front/signup" className='text-sm'>Sign up</Link>
                                     </li>
+                                    {/* <li className='border-b border-gray-300 mt-3 pb-2 px-3 hover:bg-white text-red-800 font-bold'>
+                                          <Link to="/front/profile"><CgProfile size={30} /></Link>
+                                    </li> */}
                                 </ul>
                             </motion.div>
                         }
